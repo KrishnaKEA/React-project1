@@ -1,7 +1,8 @@
 import React, {useState} from 'react'
 import{RiMenu3Line, RiCloseLine} from 'react-icons/ri';
 import './navbar.css';
-import logo from '../../assets/logo.svg';
+//import logo from '../../assets/logo.svg';
+import kpk from '../../assets/kpk.png';
 
 // BEM -> block element modifier
 
@@ -26,7 +27,7 @@ const Navbar = () => {
     <div className='gpt3__navbar'>
       <div className='gpt3__navbar-links'>
         <div className='gpt3__navbar-links_logo'>
-          <img src={logo} alt="logo" />
+          <img src={kpk} alt="logo" />
         </div>
       <div className='gpt3__navbar-links_container'>
       
